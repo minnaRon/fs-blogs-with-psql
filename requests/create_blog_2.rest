@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+
+{
+  "author": "Robert C. Martin",
+  "url": "https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html",
+  "title": "FP vs. OO List Processing",
+  "year": "2018"
+}

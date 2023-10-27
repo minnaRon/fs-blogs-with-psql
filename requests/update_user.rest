@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/users/dan@email.com
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+
+{
+  "name": "Daniel"
+}

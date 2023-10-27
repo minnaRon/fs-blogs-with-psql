@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpX
+
+{
+  "author": "Martin Fowler",
+  "url": "https://martinfowler.com/articles/is-quality-worth-cost.html", 
+  "title": "Is High Quality Software Worth the Cost?"
+}

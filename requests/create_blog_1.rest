@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5c
+
+{
+  "author": "Dan Abramov",
+  "url": "https://overreacted.io/writing-resilient-components/", 
+  "title": "Writing Resilient Components"
+}
